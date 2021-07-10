@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&display=swap');
+
+
+html,body{
+    min-height:100vh;
+    display:flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+
+html,body{
+    border:none;
+    padding:0;
+    margin:0;
+    font-family: 'Mina', sans-serif!important;
+    height: 100%;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+#first-section{
+    background-color: #003476;
+    color:#fff;
+    padding:30px;
+}
+
+.text2{
+    display:none;
+}
+
+#map{
+    padding:30px;
+    background: linear-gradient(rgba(127, 255, 212, 0.7), rgba(127, 255, 212, 0.7)), url('/assets/images/bg.jpg');
+    background-size: cover;
+}
+
+.map-frame{
+    border:1px solid transparent;
+    border-radius:10px;
+    -webkit-box-shadow: 1px 3px 15px 0px #000000; 
+    box-shadow: 1px 3px 15px 0px #000000;
+}
+
+#map p{
+    font-weight: bold;
+}
+
+#weather{
+    background: rgb(0,16,36);
+    background: linear-gradient(90deg, rgba(0,16,36,1) 0%, rgba(79,117,138,1) 69%, rgba(21,34,50,1) 100%);
+    padding:30px;
+    color:#fff;
+}
+
+#clock{
+    font-size:30px;
+}
+
+#flickr_photos{
+    background-color:#ce3423;
+    color:#fff;
+}
+
+.flickr-item{
+    max-width:300px;
+    border:1px solid transparent;
+    border-radius:5px;
+    background:#fff;
+    padding:10px 8px 60px 8px;
+    -webkit-box-shadow: 1px 3px 15px 0px #000000; 
+    box-shadow: 1px 3px 15px 0px #000000;
+}
+
+.more-button{
+    color:#fff;
+    font-size:20px;
+    padding:10px 30px 10px 30px;
+    border:2px solid #fff;
+    text-align: center;
+    margin-bottom:40px;
+    border-radius:5px;
+    transition:all ease 0.2s;
+    
+}
+
+.more-button:hover{
+    color:#ce3423;
+    background:#fff;
+    text-decoration:none;
+}
+
+.flickr-link{
+    color: #fff !important;
+    text-decoration:none;
+    font-size:20px;
+    transition:all ease 0.2s;
+}
+
+.flickr-link:hover{
+    text-decoration: none;
+    color: #000 !important;;
+    
+}
+
+
+.flickr-logo{
+    max-width:60px;
+    transition:all ease 0.2s;
+}
+
+.flickr-logo:hover{
+    max-width:60px;
+    filter: invert(100%) sepia(0%) saturate(939%) hue-rotate(1deg) brightness(108%) contrast(101%);
+}
+
+.photogallery{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#transport{
+    background-color:#ffeba1;
+}
+
+.transport-ways{
+    font-size: 40px;
+    color:#003476;
+    transition:all ease 0.2s;
+}
+
+.transport-ways i:hover{
+    color:#000;
+    cursor:pointer;
+}
+
+.transport-button{
+    background-color:transparent;
+    border:2px solid #003476;
+    font-size:15px;
+    color:#003476;
+    border-radius:5px;
+    padding:10px 30px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.oasa-logo{
+    width:100%;
+    max-width: 30px;
+    margin-right:20px;
+}
+
+.transportation-row{
+    display:flex;
+    flex-direction: row;
+    font-size: 20px;
+    margin-bottom:20px;
+    margin-top:35px;
+    width:max-content;
+    border-radius:5px;
+    border:2px solid #003476;
+    color:#003476;
+    padding:10px 30px;
+    transition:all ease 0.2s;
+}
+
+#transport > div.container.text-center > h2{
+    border-bottom:dashed;
+}
+
+.transportation-row:hover{
+    background-color:#003476;
+}
+
+.transportation-row > a{
+    color:#003476;
+}
+
+.transportation-row > a:hover{
+    color:#003476;
+}
+
+.body-isap,.body-sotiras,.body-gymnasio{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.metromap{
+    width:100%;
+    max-width: 800px;
+}
+
+.trammap{
+    width:100%;
+    max-width:500px;
+}
+
+
+.famousclass{
+    flex-direction: column;
+    font-size:40px;
+    text-align:center;
+}
+
+.famousclass i{
+    font-size:80px;
+}
+
+#famousfor{
+    background: linear-gradient(rgba(255, 165, 0, 0.6), rgba(255, 165, 0, 0.6)), url('/assets/images/karnavali.png');
+    color:#fff;
+    background-size: cover;
+}
+
+.famousclass a{
+    color: #fff !important;
+}
+
+.mask,.people{
+    filter:invert(100%) sepia(0%) saturate(0%) hue-rotate(51deg) brightness(150%) contrast(101%);
+    max-width: 180px;
+    align-self: center;
+}
+
+.carnivalclass:hover{
+    cursor:pointer;
+}
+
+
+footer{
+    background-color: #003476;
+    padding:20px;
+    color:#fff;
+}
+
+#to-top-button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #to-top-button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  #to-top-button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #to-top-button:active {
+    background-color: #555;
+  }
+  #to-top-button.show {
+    opacity: 1;
+    visibility: visible;
+  }
