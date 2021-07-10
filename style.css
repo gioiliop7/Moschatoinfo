@@ -33,7 +33,7 @@ a{
 
 #map{
     padding:30px;
-    background: linear-gradient(rgba(127, 255, 212, 0.7), rgba(127, 255, 212, 0.7)), url('/assets/images/bg.jpg');
+    background: linear-gradient(rgba(127, 255, 212, 0.7), rgba(127, 255, 212, 0.7)), url('../assets/images/bg.jpg');
     background-size: cover;
 }
 
